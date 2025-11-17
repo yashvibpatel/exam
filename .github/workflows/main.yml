@@ -1,4 +1,3 @@
-{
 # Trigger deployment only on push to main branch
 on:
   push:
@@ -35,4 +34,3 @@ jobs:
             sudo systemctl enable apache2
             cd home
             sudo mv * /var/www/html
-} 
